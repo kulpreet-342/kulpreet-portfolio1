@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact &amp; Connect - Kulpreet Kaur</title>
+  <meta name="description" content="Get in touch with Kulpreet Kaur. Phone, clickable LinkedIn profile, and email links. Clean, professional, and editable.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="index.html" class="nav-brand">
+        <span class="rocket-icon-brand">🚀</span>
+        <div>
+          <span data-config="name">Kulpreet Kaur</span>
+          <span class="brand-text-sub">Mechanical Engineering</span>
+        </div>
+      </a>
+
+      <nav>
+        <ul class="nav-menu">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="about.html" class="nav-link">My Story &amp; Education</a></li>
+          <li><a href="skills.html" class="nav-link">Skills &amp; Superpower</a></li>
+          <li><a href="contact.html" class="nav-link active">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="btn-edit-badge open-customizer-btn" title="Edit phone, email, and linkedin">
+          ✏️ <span>Edit Details</span>
+        </button>
+        <button id="themeToggleBtn" class="btn-icon" title="Toggle Theme" aria-label="Toggle Theme">☀️</button>
+        <button class="mobile-toggle" aria-label="Toggle mobile menu">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Page 4: Contact Section -->
+  <main class="page-section">
+    <div class="container">
+      <!-- Section Header -->
+      <div class="section-header">
+        <div class="section-eyebrow">
+          <span>📡</span> <span>Page 04 &bull; Direct Communications</span>
+        </div>
+        <h1 class="section-title">Get In Touch</h1>
+        <p class="section-desc">
+          Feel free to reach out for engineering projects, rocketry discussions, collaborations, or internships. All contact links are clickable, professional, and easily editable.
+        </p>
+      </div>
+
+      <!-- Quick Edit Alert Banner -->
+      <div style="background: rgba(56, 189, 248, 0.08); border: 1px dashed rgba(56, 189, 248, 0.35); border-radius: var(--radius-md); padding: 1.2rem 1.6rem; margin-bottom: 2.2rem; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1rem;">
+        <div style="display: flex; align-items: center; gap: 0.8rem;">
+          <span style="font-size: 1.5rem;">✏️</span>
+          <div>
+            <div style="font-weight: 600; color: var(--text-primary); font-size: 0.95rem;">Customize Your Contact Details Anytime</div>
+            <div style="font-size: 0.82rem; color: var(--text-secondary);">Click the button to fill in your real phone number, LinkedIn link, and email address.</div>
+          </div>
+        </div>
+        <button class="btn btn-primary open-customizer-btn" style="font-size: 0.85rem; padding: 0.5rem 1.1rem;">
+          Edit My Details Now
+        </button>
+      </div>
+
+      <div class="contact-layout">
+        <!-- Left Column: Clickable Professional Contact Cards -->
+        <div class="contact-cards-col">
+          <!-- 1. Phone Card -->
+          <div class="contact-card phone-card">
+            <div class="contact-card-left">
+              <div class="contact-card-icon">📞</div>
+              <div>
+                <div class="contact-card-label">Direct Phone / WhatsApp</div>
+                <a href="tel:+919500000065" data-config-href="contact.phoneRaw" data-href-prefix="tel:" class="contact-card-value" data-config="contact.phone" title="Click to call directly">
+                  +91 95000 00065
+                </a>
+              </div>
+            </div>
+            <div style="display: flex; gap: 0.4rem;">
+              <a href="tel:+919500000065" data-config-href="contact.phoneRaw" data-href-prefix="tel:" class="contact-action-btn" title="Call directly">
+                Call
+              </a>
+              <button class="contact-action-btn copy-trigger" data-copy-target="contact.phone" title="Copy phone number">
+                Copy
+              </button>
+            </div>
+          </div>
+
+          <!-- 2. LinkedIn Card -->
+          <div class="contact-card linkedin-card">
+            <div class="contact-card-left">
+              <div class="contact-card-icon">💼</div>
+              <div>
+                <div class="contact-card-label">Professional LinkedIn</div>
+                <a href="https://www.linkedin.com/in/kulpreet-kaur" target="_blank" rel="noopener noreferrer" data-config-href="contact.linkedin" class="contact-card-value" data-config="contact.linkedinDisplay" title="Visit LinkedIn profile">
+                  linkedin.com/in/kulpreet-kaur
+                </a>
+              </div>
+            </div>
+            <div style="display: flex; gap: 0.4rem;">
+              <a href="https://www.linkedin.com/in/kulpreet-kaur" target="_blank" rel="noopener noreferrer" data-config-href="contact.linkedin" class="contact-action-btn" title="Open LinkedIn in new tab">
+                Open ↗
+              </a>
+              <button class="contact-action-btn copy-trigger" data-copy-target="contact.linkedin" title="Copy LinkedIn URL">
+                Copy
+              </button>
+            </div>
+          </div>
+
+          <!-- 3. Email Card -->
+          <div class="contact-card email-card">
+            <div class="contact-card-left">
+              <div class="contact-card-icon">✉️</div>
+              <div>
+                <div class="contact-card-label">Official Email Address</div>
+                <a href="mailto:kulpreet.kaur@example.com" data-config-href="contact.email" data-href-prefix="mailto:" class="contact-card-value" data-config="contact.email" title="Click to compose email">
+                  kulpreet.kaur@example.com
+                </a>
+              </div>
+            </div>
+            <div style="display: flex; gap: 0.4rem;">
+              <a href="mailto:kulpreet.kaur@example.com" data-config-href="contact.email" data-href-prefix="mailto:" class="contact-action-btn" title="Compose Email">
+                Mail
+              </a>
+              <button class="contact-action-btn copy-trigger" data-copy-target="contact.email" title="Copy email address">
+                Copy
+              </button>
+            </div>
+          </div>
+
+          <!-- 4. Location Card -->
+          <div class="contact-card">
+            <div class="contact-card-left">
+              <div class="contact-card-icon">📍</div>
+              <div>
+                <div class="contact-card-label">Locations</div>
+                <div class="contact-card-value" style="font-size: 0.95rem;">
+                  Ellenabad, Haryana &bull; Jaipur, Rajasthan
+                </div>
+              </div>
+            </div>
+            <span class="badge-tag" style="margin-top: 0;">India</span>
+          </div>
+        </div>
+
+        <!-- Right Column: Interactive Send Message Form -->
+        <div class="contact-form-card">
+          <h3>Send a Direct Message</h3>
+          <p style="color: var(--text-secondary);">
+            Leave a note, and I will get back to you as soon as possible.
+          </p>
+
+          <form id="contactForm" onsubmit="handleContactSubmit(event)">
+            <div class="form-group">
+              <label class="form-label" for="senderName">Your Name</label>
+              <input type="text" id="senderName" class="form-input" placeholder="e.g. Dr. Aryan Sharma / Recruiter" required>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="senderEmail">Your Email</label>
+              <input type="email" id="senderEmail" class="form-input" placeholder="e.g. aryan@company.org" required>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="senderSubject">Subject</label>
+              <input type="text" id="senderSubject" class="form-input" placeholder="e.g. Rocketry Project / Mechanical Internship Opportunity" required>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="senderMessage">Message</label>
+              <textarea id="senderMessage" class="form-textarea" placeholder="Write your message here..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary" style="width: 100%;">
+              🚀 Send Message
+            </button>
+          </form>
+        </div>
+      </div>
+
+      <!-- Navigation Previous Page Banner -->
+      <div style="display: flex; justify-content: space-between; align-items: center; padding-top: 2.5rem; margin-top: 2.5rem; border-top: 1px solid var(--border-color);">
+        <a href="skills.html" class="btn btn-outline">⬅️ Back to Page 3: Skills</a>
+        <a href="index.html" class="btn btn-rocket">Return to Home 🏠</a>
+      </div>
+    </div>
+  </main>
+
+  <!-- Interactive Customizer Modal -->
+  <div id="customizerModalBackdrop" class="modal-backdrop">
+    <div class="customizer-modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <div class="modal-header">
+        <div class="modal-title-group">
+          <span style="font-size: 1.4rem;">⚙️</span>
+          <div>
+            <h3 id="modalTitle" class="modal-title">Customize Your Portfolio Details</h3>
+            <p style="font-size: 0.78rem; color: var(--text-muted);">Fill in or edit your personal links and bio anytime</p>
+          </div>
+        </div>
+        <button id="closeCustomizerBtn" class="modal-close-btn" aria-label="Close modal">✕</button>
+      </div>
+
+      <div class="modal-body">
+        <div class="modal-hint-box">
+          <span>💡</span>
+          <div>
+            <strong>Instant Live Update:</strong> Changes saved here are stored in your browser and automatically update across all 4 pages.
+          </div>
+        </div>
+
+        <form id="customizerForm" onsubmit="return false;">
+          <div class="edit-fields-grid">
+            <div class="form-group full-width">
+              <label class="form-label" for="cfgName">Full Name</label>
+              <input type="text" id="cfgName" class="form-input" placeholder="e.g. Kulpreet Kaur">
+            </div>
+
+            <div class="form-group full-width">
+              <label class="form-label" for="cfgRole">Headline / Student Title</label>
+              <input type="text" id="cfgRole" class="form-input" placeholder="e.g. 1st Year Mechanical Engineering Student & Rocketry Enthusiast">
+            </div>
+
+            <div class="form-group full-width">
+              <label class="form-label" for="cfgIntro1">Intro Line 1 (Home Page)</label>
+              <textarea id="cfgIntro1" class="form-textarea" rows="2"></textarea>
+            </div>
+
+            <div class="form-group full-width">
+              <label class="form-label" for="cfgIntro2">Intro Line 2 (Home Page)</label>
+              <textarea id="cfgIntro2" class="form-textarea" rows="2"></textarea>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="cfgPhone">Contact Phone Number</label>
+              <input type="text" id="cfgPhone" class="form-input" placeholder="e.g. +91 95000 00065">
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="cfgEmail">Email Address</label>
+              <input type="email" id="cfgEmail" class="form-input" placeholder="e.g. kulpreet.kaur@example.com">
+            </div>
+
+            <div class="form-group full-width">
+              <label class="form-label" for="cfgLinkedin">LinkedIn Profile URL</label>
+              <input type="url" id="cfgLinkedin" class="form-input" placeholder="https://www.linkedin.com/in/your-profile">
+            </div>
+
+            <div class="form-group full-width">
+              <label class="form-label" for="cfgLinkedinDisplay">LinkedIn Display Text</label>
+              <input type="text" id="cfgLinkedinDisplay" class="form-input" placeholder="e.g. linkedin.com/in/kulpreet-kaur">
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="cfgUniversity">University</label>
+              <input type="text" id="cfgUniversity" class="form-input" placeholder="JECRC University, Jaipur">
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="cfgSchool">School Name &amp; City</label>
+              <input type="text" id="cfgSchool" class="form-input" placeholder="Nachiketan Public School, Ellenabad">
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <div class="modal-footer">
+        <div class="modal-footer-left">
+          <button id="resetCustomizerBtn" type="button" class="btn btn-outline" style="font-size: 0.82rem; padding: 0.5rem 0.9rem;">🔄 Reset</button>
+          <button id="exportConfigBtn" type="button" class="btn btn-outline" style="font-size: 0.82rem; padding: 0.5rem 0.9rem;">📋 Copy JSON</button>
+        </div>
+        <div style="display: flex; gap: 0.6rem;">
+          <button id="cancelCustomizerBtn" type="button" class="btn btn-outline">Cancel</button>
+          <button id="saveCustomizerBtn" type="button" class="btn btn-primary">Save Changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="rocket-icon-brand" style="width: 28px; height: 28px; font-size: 0.9rem;">🚀</span>
+        <strong data-config="name">Kulpreet Kaur</strong>
+        <span style="color: var(--text-muted);">&bull; Mechanical Engineering, JECRC</span>
+      </div>
+
+      <ul class="footer-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">My Story</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+
+      <div class="footer-copy">
+        Crafted with curiosity &amp; rocketry grit &bull; &copy; 2026
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/portfolio-config.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+    function handleContactSubmit(e) {
+      e.preventDefault();
+      const name = document.getElementById('senderName').value;
+      const email = document.getElementById('senderEmail').value;
+      const subject = document.getElementById('senderSubject').value;
+      const message = document.getElementById('senderMessage').value;
+
+      // Create a pre-filled mailto trigger as fallback
+      const activeData = window.PortfolioApp ? window.PortfolioApp.getActiveData() : {};
+      const targetEmail = (activeData.contact && activeData.contact.email) ? activeData.contact.email : 'kulpreet.kaur@example.com';
+
+      window.PortfolioApp.showToast(`🚀 Thank you, ${name}! Opening mail client to send to Kulpreet.`);
+      
+      setTimeout(() => {
+        const mailtoUri = `mailto:${encodeURIComponent(targetEmail)}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent("From: " + name + " (" + email + ")\n\n" + message)}`;
+        window.location.href = mailtoUri;
+      }, 1000);
+    }
+  </script>
+</body>
+</html>
